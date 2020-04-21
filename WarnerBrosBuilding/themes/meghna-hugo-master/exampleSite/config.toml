@@ -1,9 +1,9 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
-title = "Warner Bros Building"
-theme = "meghna-hugo-master"
+################################# Default configuration ###################
+baseURL = "https://examplesite.com"
+title = "Meghna"
+theme = "meghna-hugo"
 # post pagination
-paginate = "1"
+paginate = "6"
 # post excerpt
 summaryLength = "15"
 # disqus short name
@@ -42,13 +42,13 @@ link = "plugins/google-map/map.js"
 
 ############################# Navigation ##################################
 [[menu.main]]
-name = "Services"
+name = "About Us"
 URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "About us"
-URL = "feature"
+name = "Service"
+URL = "services"
 weight = 2
 
 [[menu.main]]
@@ -57,9 +57,30 @@ URL = "portfolio"
 weight = 3
 
 [[menu.main]]
+name = "Team"
+URL = "team"
+weight = 4
+
+[[menu.main]]
+name = "Pricing"
+URL = "pricing"
+weight = 5
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 6
+
+[[menu.main]]
 name = "Contact"
 URL = "contact"
 weight = 7
+
+#### external / static link ####
+[[menu.static]]
+name = "Themefisher"
+URL = "https://themefisher.com/"
+weight = 8
 
 ############################# Default Parameters ##########################
 [params]
@@ -91,9 +112,38 @@ icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
-icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
 link = "#"
+
+[[params.social]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"

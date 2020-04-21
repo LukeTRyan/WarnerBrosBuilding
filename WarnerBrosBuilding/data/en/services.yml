@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable : true
+  title : Our Services
+  about_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : About 1
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-home # themify icon pack : https://themify.me/themify-icons
+    title : About 2
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-package # themify icon pack : https://themify.me/themify-icons
+    title : About 3
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.

@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  #bg_image_webp : "images/backgrounds/person-holding-grinder.webp"
+  bg_image : "images/backgrounds/person-holding-grinder.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Warner Bros Building"
+  content : "Opening Statement about the business"
+  button:
+    enable : true
+    label : "Explore Us"
+    link : "#about"
