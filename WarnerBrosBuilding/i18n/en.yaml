@@ -4,6 +4,12 @@
   translation: View
 - id: viewAll
   translation: View All
+- id: share
+  translation: Share
+- id: aboutAuthor
+  translation: About author
+- id: authorsPosts
+  translation: Author's posts
 - id: submit
   translation: Submit
 - id: all
