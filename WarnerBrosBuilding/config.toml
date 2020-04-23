@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Warner Bros Building"
 theme = "meghna-hugo-master"
 # post pagination
-paginate = "1"
+paginate = "3"
 # post excerpt
 summaryLength = "15"
 # disqus short name
@@ -52,8 +52,8 @@ URL = "feature"
 weight = 2
 
 [[menu.main]]
-name = "Portfolio"
-URL = "portfolio"
+name = "Gallery"
+URL = "blog"
 weight = 3
 
 [[menu.main]]
@@ -65,8 +65,8 @@ weight = 7
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "Warner Bros Building"
+author = "Luke Ryan"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # post share
