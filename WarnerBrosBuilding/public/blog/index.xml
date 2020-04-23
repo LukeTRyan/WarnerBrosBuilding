@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>How To Setup Meghna Hugo</title>
-      <link>/blog/installation/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
-      
-      <guid>/blog/installation/</guid>
-      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
-    </item>
-    
-    <item>
       <title>Simple Blog Post</title>
       <link>/blog/simple-blog-post-1/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>

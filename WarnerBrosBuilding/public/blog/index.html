@@ -35,9 +35,22 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
 
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   <div id="content">
     
 <!-- preloader start -->
@@ -215,16 +228,7 @@
         
     
     
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="/blog/page/9/">9</a></li>
+    <li class="page-item"><a class="page-link" href="/blog/page/8/">8</a></li>
     
     
     <li class="page-item">
@@ -232,7 +236,7 @@
     </li>
     
     <li class="page-item">
-        <a href="/blog/page/9/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/blog/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

@@ -35,9 +35,22 @@
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
 
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   <div id="content">
     
 <!-- preloader start -->
@@ -110,13 +123,13 @@
       <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
   <div class="post-block">
     <div class="media-wrapper">
-      <img class="img-fluid lozad" data-src="images/blog/blog-post-1.webp" onerror="this.onerror=null;this.src='images\/blog\/blog-post-1.jpg'">
+      <img class="img-fluid lozad" data-src="images/blog/blog-post-3.webp" onerror="this.onerror=null;this.src='images\/blog\/blog-post-3.jpg'">
     </div>
 
     <div class="content">
-      <h3><a href="/blog/simple-blog-post-6/">Simple Blog Post</a></h3>
+      <h3><a href="/blog/simple-blog-post-7/">Simple Blog Post</a></h3>
       <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-      <a class="btn btn-transparent" href="/blog/simple-blog-post-6/">Read more</a>
+      <a class="btn btn-transparent" href="/blog/simple-blog-post-7/">Read more</a>
     </div>
   </div>
 </article>
@@ -220,23 +233,12 @@
     <li class="page-item active"><a class="page-link" href="/blog/page/8/">8</a></li>
     
     
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="/blog/page/9/">9</a></li>
-    
-    
-    <li class="page-item">
-    <a href="/blog/page/9/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/blog/page/9/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/blog/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
