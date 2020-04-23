@@ -1,9 +1,9 @@
-- id: galleryTitle
-  translation: Latest Posts
-- id: viewMore
-  translation: View
-- id: viewAll
-  translation: View All
+- id: blogTitle
+  translation: Latest Post
+- id: readMore
+  translation: Read more
+- id: viewAllPost
+  translation: View All Post
 - id: share
   translation: Share
 - id: aboutAuthor
