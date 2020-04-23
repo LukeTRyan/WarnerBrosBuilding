@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="55">
-  <script>
+  <!-- <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {
@@ -13,7 +13,7 @@
         }
       });
     }
-  </script>
+  </script> -->
   <div id="content">
     {{ partial "preloader.html" . }}
     {{- block "main" . }}{{- end }}
