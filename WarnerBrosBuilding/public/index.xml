@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warner Bros Building</title>
-    <link>/</link>
+    <link>https://warnerbrosbuilding.netlify.app/</link>
     <description>Recent content on Warner Bros Building</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Sep 2018 12:52:36 +0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://warnerbrosbuilding.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gallery Post</title>
-      <link>/gallery/simple-gallery-post-1/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-1/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-1/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery Post 2</title>
-      <link>/gallery/simple-gallery-post-2/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-2/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-2/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery Post 3</title>
-      <link>/gallery/simple-gallery-post-3/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-3/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-3/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery Post 4</title>
-      <link>/gallery/simple-gallery-post-4/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-4/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-4/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery Post 5</title>
-      <link>/gallery/simple-gallery-post-5/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-5/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-5/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery Post 6</title>
-      <link>/gallery/simple-gallery-post-6/</link>
+      <link>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-6/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>/gallery/simple-gallery-post-6/</guid>
+      <guid>https://warnerbrosbuilding.netlify.app/gallery/simple-gallery-post-6/</guid>
       <description></description>
     </item>
     
