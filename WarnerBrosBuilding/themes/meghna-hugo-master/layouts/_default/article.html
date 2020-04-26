@@ -1,12 +1,9 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
   <div class="post-block">
     <div class="media-wrapper">
-      <img class="img-fluid lozad" data-src="{{ .Params.Image | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
-    </div>
-
-    <div class="content">
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "viewMore" }}</a>
+      <a class="search-icon image-popup" href="{{ .Params.Image | absURL }}" data-effect="mfp-with-zoom">
+      <img class="img-fluid lozad" style="width: 100%; height:320px;" data-src="{{ .Params.Image | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
+      </a>
     </div>
   </div>
 </article>

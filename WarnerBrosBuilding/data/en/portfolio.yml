@@ -6,7 +6,6 @@ portfolio:
     # portfolio item loop
     - name : Tag Design
       image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
       categories : ["design"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
       link : "https://themefisher.com"
