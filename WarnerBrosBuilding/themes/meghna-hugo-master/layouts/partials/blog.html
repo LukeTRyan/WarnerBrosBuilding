@@ -13,7 +13,7 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 9 (where .Site.RegularPages "Section" "==" "gallery")}}
+			{{ range first 8 (where .Site.RegularPages "Section" "==" "gallery")}}
 			{{ .Render "article"}}
 			{{ end }}
 
