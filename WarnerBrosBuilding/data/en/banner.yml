@@ -5,7 +5,7 @@ banner:
   bg_image : "images/backgrounds/person-holding-grinder.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Warner Bros Building"
-  content : "Opening Statement about the business"
+  content : "Brisbane Based Builder Specialising in Renovations."
   button:
     enable : true
     label : "Explore Us"
