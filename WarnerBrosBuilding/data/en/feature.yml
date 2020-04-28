@@ -1,7 +1,7 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/man.jpg
+  image : images/about/man.webp
   #image_webp : images/about/man-wearing-blue.webp
   title : Brisbane Based Builder Specialising in Renovations.
   content : "Introduction about the business - background, origin, size."
