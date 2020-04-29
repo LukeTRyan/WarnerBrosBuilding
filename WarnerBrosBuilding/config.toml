@@ -28,7 +28,7 @@ link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,70
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
-link = "plugins/jquery/jquery.cycle2.js"
+link = "plugins/jquery/jquery.cycle2.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
