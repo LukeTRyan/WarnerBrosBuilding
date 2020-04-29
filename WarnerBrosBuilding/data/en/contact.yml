@@ -8,10 +8,10 @@ contact:
 
   contact_details :
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "Brisbane, Queensland, Australia"
+      info : "34 Webster Ave, Hendra 4011, Brisbane"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: 04--------"
+      info : "Phone: 0402575228"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: placeholder@email.com"
+      info : "Email: pjmaton@hotmail.com"

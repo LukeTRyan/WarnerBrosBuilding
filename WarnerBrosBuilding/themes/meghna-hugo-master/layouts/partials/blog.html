@@ -1,5 +1,7 @@
 {{ if gt .Site.RegularPages 0}}
 {{"<!-- Start Gallery Section -->" | safeHTML}}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <section id="blog" class="section">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -13,16 +15,17 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 8 (where .Site.RegularPages "Section" "==" "gallery")}}
-			{{ .Render "article"}}
+			{{ range first 1 (where .Site.RegularPages "Section" "==" "gallery")}}
+			{{ .Render "article2"}}
 			{{ end }}
 
-			<div class="all-post text-center col-lg-12">
+			<!-- <div class="all-post text-center col-lg-12">
 				<a class="btn btn-main"
 					href="{{ `gallery` | absLangURL }}">{{ i18n "viewAll" }}</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
 {{"<!-- /gallery -->" | safeHTML}}
 {{ end }}
+

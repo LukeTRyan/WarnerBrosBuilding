@@ -1,0 +1,29 @@
+<article class="col-lg-11 col-12 col-md-11 col-sm-14 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+    <div class="media-wrapper">
+
+      <div class="cycle-slideshow"
+        data-cycle-swipe=true
+        data-cycle-fx="carousel"
+        data-cycle-speed=1000
+        data-cycle-timeout="6000"
+        data-cycle-prev="#prev"
+        data-cycle-next="#next"
+      >
+      <div class="cycle-overlay" style="text-align: center;"></div>
+      <div class="cycle-caption" style="text-align: center;"></div>
+      {{ range first 50 (where .Site.RegularPages "Section" "==" "gallery")}}
+        <img class="lozad search-icon image-popup" data-src="{{ .Params.Image | absURL }}" style="width: 100%; height:750px; object-fit: scale-down;" href="{{ .Params.Image | absURL }}" 
+        data-cycle-desc="{{ .Description }}">
+      {{ end }}
+
+      </div>
+
+      <div class="col-lg-12" style="text-align: center;">
+        <h5>
+          <a href=# id="prev">Previous</a> 
+          <a href=# id="next">Next</a>
+        </h5>
+      </div>
+      
+    </div>
+</article>
