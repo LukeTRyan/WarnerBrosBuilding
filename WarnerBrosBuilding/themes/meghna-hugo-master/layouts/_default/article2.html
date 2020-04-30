@@ -5,14 +5,14 @@
         data-cycle-swipe=true
         data-cycle-fx="carousel"
         data-cycle-speed=1000
-        data-cycle-timeout="6000"
+        data-cycle-timeout="10000"
         data-cycle-prev="#prev"
         data-cycle-next="#next"
       >
       <div class="cycle-overlay" style="text-align: center;"></div>
       <div class="cycle-caption" style="text-align: center;"></div>
-      {{ range first 50 (where .Site.RegularPages "Section" "==" "gallery")}}
-        <img class="lozad search-icon image-popup" data-src="{{ .Params.Image | absURL }}" style="width: 100%; height:750px; object-fit: scale-down;" href="{{ .Params.Image | absURL }}" 
+      {{ range first 40 (where .Site.RegularPages "Section" "==" "gallery")}}
+        <img class="img-fluid lozad" data-src="{{ .Params.Image | absURL }}" style="width: 100%; height:750px; object-fit: scale-down;" href="{{ .Params.Image | absURL }}" 
         data-cycle-desc="{{ .Description }}">
       {{ end }}
 
