@@ -3,7 +3,3 @@
   
 [build.environment]
   HUGO_VERSION = "0.69.0"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  package = "netlify-plugin-image-optim"
