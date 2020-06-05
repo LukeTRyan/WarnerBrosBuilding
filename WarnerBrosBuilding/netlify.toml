@@ -2,9 +2,8 @@
   publish = "WarnerBrosBuilding/public"
   
 [build.environment]
-  HUGO_VERSION = "0.60.1"
-  HUGO_THEME = "repo"
+  HUGO_VERSION = "0.69.0"
 
-  [[plugins]]
-    package = "netlify-plugin-hugo-cache-resources"
-    package = "netlify-plugin-image-optim"
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+  package = "netlify-plugin-image-optim"
