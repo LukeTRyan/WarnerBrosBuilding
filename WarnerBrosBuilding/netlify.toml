@@ -1,5 +1,5 @@
 [build]
-  publish = "WarnerBrosBuilding/public"
+  publish = "/public"
   
 [build.environment]
   HUGO_VERSION = "0.69.0"
