@@ -8,7 +8,7 @@ contact:
 
   contact_details :
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "34 Webster Ave, Hendra 4011, Brisbane"
+      info : "Brisbane, Australia"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
       info : "Phone: 0402575228"
