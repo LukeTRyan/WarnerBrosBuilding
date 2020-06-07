@@ -554,6 +554,18 @@ a:hover {
   margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+  .about .block {
+    max-height: 390px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about .block {
+    height: 430px;
+  }
+}
+
 .about .block:hover {
   border-bottom: 2px solid #57cbcc;
 }

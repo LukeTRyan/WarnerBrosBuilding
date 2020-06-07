@@ -4,24 +4,23 @@ feature:
   image : images/about/man.webp
   #image_webp : images/about/man-wearing-blue.webp
   title : Brisbane Based Builder Specialising in Renovations.
-  content : "Introduction about the business - background, origin, size."
   feature_item : 
       # feature item loop
     - title : Brisbane Based
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Information about this feature
+      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
       
       # feature item loop
     - title : Family Owned
       icon : ti-heart # themify icon pack : https://themify.me/themify-icons
-      content : Information about this feature
+      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
 
       # feature item loop
     - title : No Job Too Small
       icon : ti-home # themify icon pack : https://themify.me/themify-icons
-      content : Information about this feature
+      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
       
       # feature item loop
     - title : Another Feature
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Information about this feature
+      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
