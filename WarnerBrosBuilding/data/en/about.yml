@@ -4,13 +4,13 @@ about:
   title : Our Services
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : Service 1 
-    content : Information about service 1 goes here.
+    title : Initial Consult
+    content : Warner Bros Building will assist with design, plans, engineering and council approval.
 
   - icon : ti-hummer # themify icon pack : https://themify.me/themify-icons
-    title : Service 2
-    content : Information about service 2 goes here.
+    title : Construction
+    content : Turning ideas into reality. With the builder regularly onsite, work quality is kept high. We ensure projects are delivered on time and under budget.
 
   - icon : ti-home # themify icon pack : https://themify.me/themify-icons
-    title : Service 3
-    content : Information about service 3 goes here.
+    title : Finished product
+    content : We take pride in our work. Thats why we ensure clients are 100% happy before turnover.
