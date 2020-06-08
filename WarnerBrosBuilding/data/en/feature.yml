@@ -7,19 +7,19 @@ feature:
       # feature item loop
     - title : Brisbane Based
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
+      content : We're here to forge a name in the heart of Brisbane as a renovations specialist, renowned for quality, expertise and client satisfaction. 
       
       # feature item loop
-    - title : Family Owned
+    - title : Family Owned Small Business
       icon : ti-heart # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
+      content : As a small business, we pride ourselves on being approachable, easy-going and communicative. We'll strive to make your renovation experience seamless and hassle-free.
 
       # feature item loop
     - title : No Job Too Small
       icon : ti-home # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
+      content :  We do everything from simple cosmetic restyling’s to major structural renovations that completely change the layout of your entire house. If it needs fixing and updating, we’re the builders to do it.
       
       # feature item loop
-    - title : Another Feature
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis, enim quis vestibulum facilisis, tellus urna mollis libero
+    - title : Master Builders
+      icon : ti-check-box # themify icon pack : https://themify.me/themify-icons
+      content : As a member of Master Builders Queensland, we join a wide range of certified industry professionals dedicated to providing exceptional standards. Don't hesitate, call or email us to receive a quote on your next housing project!
