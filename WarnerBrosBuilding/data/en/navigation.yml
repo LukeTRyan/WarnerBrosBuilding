@@ -1,0 +1,6 @@
+############################# Navigation ###################################
+navigation:
+  enable : true
+  navigation_item :
+  - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+   

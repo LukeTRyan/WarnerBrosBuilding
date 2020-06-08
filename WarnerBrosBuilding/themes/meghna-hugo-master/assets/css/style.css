@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: rgba(76, 197, 199, 0.884);
   border: 1px solid transparent;
   color: #fff;
 }
@@ -720,7 +720,7 @@ a:hover {
 .form-meghna input:hover,
 .form-meghna textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: rgba(76, 197, 199, 0.884);;
 }
 
 .form-meghna ::placeholder {
@@ -729,7 +729,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: rgba(76, 197, 199, 0.884);
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -748,8 +748,11 @@ a:hover {
 }
 
 .con-info i,
-.con-info span {
+.con-info span,
+.con-info h5 {
   padding-right: 5px;
+  display: inline-block;
+  color: #737f8a;
 }
 
 .error {
@@ -1537,7 +1540,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background:rgba(76, 197, 199, 0.74);;
 }
 
 .social-icon ul li a:hover i {
