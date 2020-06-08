@@ -1,11 +1,10 @@
 ############################### Banner ################################
 banner:
   enable : true
-  #bg_image_webp : "images/backgrounds/person-holding-grinder.webp"
   bg_image : "images/backgrounds/person-holding-grinder.webp"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
+  icon : # themify icon pack : https://themify.me/themify-icons
   title : "Warner Bros Building"
-  content : "Brisbane Based Builder Specialising in Renovations."
+  content : "Brisbane Based Builder Specialising in Renovations"
   button:
     enable : true
     label : "Explore Us"

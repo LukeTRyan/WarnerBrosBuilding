@@ -1,8 +1,7 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/man.webp
-  #image_webp : images/about/man-wearing-blue.webp
+  image : images/about/stock.jpg
   title : Brisbane Based Builder Specialising in Renovations.
   feature_item : 
       # feature item loop
