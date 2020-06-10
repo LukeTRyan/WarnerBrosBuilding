@@ -10,6 +10,8 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 html {
   background-color: #353b43;
   color: #737f8a;
+  -webkit-transform: translate3d(0,0,1px); 
+  -webkit-backface-visibility: hidden;
 }
 
 body {
@@ -17,6 +19,8 @@ body {
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
+  -webkit-transform: translate3d(0,0,1px); 
+  -webkit-backface-visibility: hidden;
 }
 
 h1,

@@ -1,7 +1,7 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/stock.jpg
+  image_webp : images/about/stock.webp
   title : Brisbane Based Builder Specialising in Renovations.
   feature_item : 
       # feature item loop
