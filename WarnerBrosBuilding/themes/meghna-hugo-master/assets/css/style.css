@@ -214,17 +214,17 @@ a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
+  border: 1px solid #4e595f;
   color: #fff;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
+  
+  
   letter-spacing: 1px;
-  padding: 10px 35px;
-  text-transform: uppercase;
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #2c8f919f;
   color: #fff;
 }
 
@@ -249,7 +249,7 @@ a:hover {
 }
 
 .section-sm {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .section-xs {
@@ -651,12 +651,12 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: rgba(255, 255, 255, 0.788);
 }
 
 .call-to-action p {
   font-size: 16px;
-  color: #666;
+  color: rgba(255, 255, 255, 0.719);
 }
 
 .call-to-action .btn-main {

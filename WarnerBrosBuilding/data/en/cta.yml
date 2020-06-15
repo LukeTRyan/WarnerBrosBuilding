@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Your Local Renovations Specialist"
+  content : "Contact us today to get a hassle-free quote on your next renovation project."
+  button:
+    enable : true
+    label : "Start a project with us"
+    link : "#contact"

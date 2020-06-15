@@ -11,7 +11,7 @@
       
       <div class="cycle-caption" style="text-align: center;"></div>
       {{ range first 40 (where .Site.RegularPages "Section" "==" "gallery")}}
-        <img class="search-icon image-popup img-fluid lozad" data-src="{{ .Params.Image | absURL }}" style="width: 100%; height:750px; object-fit: scale-down;" href="{{ .Params.Image | absURL }}" 
+        <img class="search-icon image-popup img-fluid lozad" data-src="{{ .Params.Image | absURL }}" style="width: 100%; height:750px; object-fit: scale-down; image-rendering: optimizeSpeed;" href="{{ .Params.Image | absURL }}" 
         data-cycle-desc="{{ .Description }}">
       {{ end }}
 
