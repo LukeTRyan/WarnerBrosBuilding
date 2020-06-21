@@ -1,6 +1,6 @@
-baseURL = "https://www.warnerbrosbuilding.com.au/"
+baseURL = "https://www.warnerbrosbuilders.com.au/"
 languageCode = "en-us"
-title = "Warner Bros Building"
+title = "Warner Bros Builders"
 theme = "meghna-hugo-master"
 # post pagination
 paginate = "100"
@@ -63,7 +63,7 @@ weight = 7
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Warner Bros Building"
+description = "Warner Bros Builders"
 author = "Luke Ryan"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
