@@ -3,7 +3,7 @@ banner:
   enable : true
   bg_image : "images/backgrounds/person-holding-grinder.webp"
   icon : # themify icon pack : https://themify.me/themify-icons
-  title : "Warner Bros Building"
+  title : "Warner Bros Builders"
   content : "Brisbane Based Builder Specialising in Renovations"
   button:
     enable : true

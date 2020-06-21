@@ -76,17 +76,17 @@ enable = true
 preloader = "images/logo.png"
 
 ############################# social icons ##########################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
 link = "https://www.instagram.com/warner_bros_building/"
 
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 ################################ English Language ########################
 [Languages.en]
