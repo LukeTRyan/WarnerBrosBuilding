@@ -61,7 +61,7 @@ weight = 7
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/master_builders.ico"
 # Meta data
 description = "Warner Bros Builders"
 author = "Luke Ryan"
