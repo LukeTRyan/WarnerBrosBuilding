@@ -73,7 +73,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/favicon.png"
 
 ############################# social icons ##########################
 #[[params.social]]
