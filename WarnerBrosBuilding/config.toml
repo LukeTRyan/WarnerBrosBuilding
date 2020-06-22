@@ -61,7 +61,7 @@ weight = 7
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/master_builders.ico"
+logo = "images/master_builders.png"
 # Meta data
 description = "Warner Bros Builders"
 author = "Luke Ryan"
@@ -73,7 +73,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/favicon.png"
+preloader = "images/preloader.png"
 
 ############################# social icons ##########################
 #[[params.social]]
