@@ -82,7 +82,7 @@ preloader = "images/preloader.png"
 
 [[params.social]]
 icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "https://www.instagram.com/warner_bros_building/"
+link = "https://www.instagram.com/warner_bros_builders/"
 
 #[[params.social]]
 #icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
